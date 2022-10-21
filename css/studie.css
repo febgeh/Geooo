@@ -1,7 +1,5 @@
 
-body{
-  background-color: #f4f7e7;
-}
+
  ul {
     list-style-type: none;
     margin: 0px;
@@ -106,7 +104,6 @@ img{
   margin-left: 5%;
   margin-top: 20%;
   border-radius: 30px;
-  background-color: #f4f7e7;
   float:left;
 }
 .col-1{

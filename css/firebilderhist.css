@@ -1,15 +1,4 @@
-body{
-    background-image: url('../bilder/linear.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
 
-
-  body{
-    background-color: #f4f7e7;
-  }
-  
     ul {
       list-style-type: none;
       margin: 0px;
@@ -69,33 +58,59 @@ body{
 
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px,2fr));
 }
+
+.div{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  float: center;
+  margin-bottom: 40px;
+}
+
 
 img{
-    width: 40%;
+    width: 60%;
     height: auto;
     min-width: 300px;
+    outline-style: double;
+    outline-width: 20px;
 }
 
+@media screen and (min-width: 1800px){
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px,2fr));
+  }
+  
+}
 
+@media screen and (min-width: 2800px){
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1200px,2fr));
+  }
+  
+}
 
   
   
   
   @media screen and (max-width: 800px){
-    .grid-container{
-      grid-template-columns: repeat(1,1fr);
-      margin: 60px;
-  }
-  
+
   .dropbtn{
     font-size: 14px;
     padding-left: 0px;
     padding-right: 0px;
   }
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
+  }
+  
+
 }
   
   
@@ -114,4 +129,20 @@ img{
     padding-right: 0px;
   }
   }
-  
+  @media screen and (max-width: 450px){
+
+    .flex-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px,2fr));
+    }
+    
+    }
+
+    @media screen and (max-width: 350px){
+
+      img{
+        min-width: 100px;
+        width: 70%;
+      }
+      
+      }

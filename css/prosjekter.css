@@ -1,15 +1,4 @@
-body{
-    background-image: url('../bilder/linear.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
 
-
-  body{
-    background-color: #f4f7e7;
-  }
-  
     ul {
       list-style-type: none;
       margin: 0px;
@@ -76,13 +65,11 @@ body{
 .grid-container > *{
     border-radius: 20px;
     transition: background-color 1s ease;
-    background-color: #dbe460;
+    background-color: #e0f0c0;
+    min-height: 600px;
 }
 
-.grid-container > *:hover{
-    transition: background-color 1s ease;
-    background-color: #eeff00;
-}
+
 
 img{
     width: 100%;
