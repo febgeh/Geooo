@@ -176,6 +176,8 @@ body{
   border-radius: 20px;
 }
 /*For the 10 bokses*/
+
+
 img{
   margin: 0%;
   margin-left: 1%;
@@ -241,15 +243,6 @@ img{
   font-size: 25px;
 }
 
-.pill{
-  display: flex;
-  margin-left: 46%;
-  width: 10%;
-  height: auto;
-  position: absolute;
-  animation: mymove 5s infinite;
-}
-
 @media screen and (max-width: 1700px){
   .pros_text:hover{
     font-size: 20px;
@@ -262,12 +255,24 @@ img{
   }
 
 }
+/*Projects button*/
+
+
+.pill{
+  display: flex;
+  margin-left: 46%;
+  width: 10%;
+  height: auto;
+  position: absolute;
+  animation: mymove 5s infinite;
+}
+
 
 @keyframes mymove{
   from {margin-top: 0px;}
   to {margin-top: 40px;}
 }
-
+/*For arrow*/
 
 
 @media screen and (min-width: 1200px){
@@ -310,7 +315,7 @@ img{
 }
 
 
-/*for the margin of the flex container(container1)*/
+/*for the margin of the flex container(container1) and for small buttod and padding fails on differend resolutions*/
 
 @media screen and (min-width: 2200px){
   .vestland{
@@ -478,7 +483,7 @@ img{
   }
 }
 
-/*And lastly even more changes for mobile.*/
+/*And lastly even more changes for mobile (like smaler text).*/
 
 
 @media screen and (max-width: 800px){
@@ -490,3 +495,4 @@ img{
 
   }
 }
+/*Different background image on a screen with less than 800 pixels.*/
