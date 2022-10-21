@@ -1,0 +1,59 @@
+
+    ul {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: #030107;
+      border-radius: 10px;
+    }
+    
+    li {
+      float: left;
+    }
+    /*dfor navbar and boxes*/
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    /*For tekst on navbar*/
+    
+    li a:hover, .dropdown:hover{
+      background-color: #180836;
+    }
+    /*change color when hover over navbar (li/dropdown)*/
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 160px;
+      margin-left: -100px;
+      z-index: 1;
+    }
+    /*For the dropdown blocks*/
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      background-color: #fbfdfb;
+      border-radius: 10px;
+    }
+    /*For text in blocks*/
+    
+    .dropdown-content a:hover 
+    {background-color: #e4ec6d;
+    }
+    /*For color when hover over tekst background*/
+    .dropdown:hover .dropdown-content {
+      display: block;
+      border-radius: 10px;
+    }
+  /*When hover over navbar display dropdown content.*/
+  
