@@ -250,12 +250,23 @@ img{
   animation: mymove 5s infinite;
 }
 
+@media screen and (max-width: 1700px){
+  .pros_text:hover{
+    font-size: 20px;
+    padding: 30px;
+
+  }
+  .pros_text{
+    font-size: 20px;
+    padding: 30px;
+  }
+
+}
+
 @keyframes mymove{
   from {margin-top: 0px;}
   to {margin-top: 40px;}
 }
-
-
 
 
 
