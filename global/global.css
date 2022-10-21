@@ -1,7 +1,7 @@
 
     ul {
       list-style-type: none;
-      margin: 0px;
+      margin-top: 8px;
       padding: 0px;
       overflow: hidden;
       background-color: #030107;
@@ -31,8 +31,13 @@
       display: none;
       position: absolute;
       min-width: 160px;
-      margin-left: -100px;
+      margin-left: 0px;
       z-index: 1;
+    }
+    @media screen and (max-width: 1000px){
+      .dropdown-content {
+        margin-left: -100px;
+      }
     }
     /*For the dropdown blocks*/
     
