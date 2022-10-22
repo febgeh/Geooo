@@ -72,10 +72,11 @@
   
   
   @media screen and (max-width: 1000px){
-    .dropdown-content{
-      right:0;
-    }
-  .dropbtn{
+  .GeoHub-knapp{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+    .dropbtn{
     font-size: 14px;
     padding-left: 0px;
     padding-right: 0px;
@@ -233,7 +234,7 @@
   
   @media screen and (max-width: 800px){
     body{
-      background-image: url('../bilder/mobilback1.jpg');
+      background-image: url('../bilder/white.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: 100% 100%;
