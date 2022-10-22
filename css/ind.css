@@ -25,19 +25,6 @@ body{
     margin-top: 0px;
   }
 /*Amalie Skram VGS*/
-.GeoHub-knapp{
-  background-color: #030107;
-  font-size: 15px;
-  font-family: cursive;
-  padding: 15px;
-  color: white;
-}
-.GeoHub-knapp:hover{
-  background-color: #180836;
-  font-size: 30px;
-  padding: 11px;
-  font-family: 'Times New Roman', Times, serif;
-}
 
 
 .knapp1{
@@ -78,7 +65,9 @@ body{
 }
 /*For the purple buttons*/
 
-
+.studie_link1{
+  display: none;
+}
 .studie_link{
   padding: 70px;
   padding-left: 0%;
