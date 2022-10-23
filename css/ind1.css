@@ -205,7 +205,7 @@
 
   
 
-  @media screen and (max-width: 350px){
+  @media screen and (max-width: 375px){
     .studie_link{
       display: none;
     }
@@ -215,12 +215,17 @@
       text-decoration: none;
       color: white;
       padding: 20px;
+      margin-left: -5px;
+      float: center;
     }
     .link{
       font-family: 20px;
     }
     .dropbtn{
       font-size: 10px;
+    }
+    h1{
+      font-size: 30px;
     }
   }
 
