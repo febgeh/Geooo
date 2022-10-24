@@ -167,48 +167,39 @@ h1{
   .col-1{
     margin: 0px;
     width: 100%;
-    height: 250px;
+    height: 345px;
   }
   .col-2{
     margin: 0px;
     width: 100%;
     margin-left: -0%;
     margin-top: 0px;
-    height: 250px;
+    height: 345px;
   }
   .col-3{
     margin: 0px;
     width: 100%;
     margin-left: -0%;
     margin-top: 0px;
-    height: 250px;
+    height: 345px;
   }
+
   .text{
     font-size: 20px;
-    padding: 0px;
+    padding-left: 20px;
     margin-top: 20px;
     padding-left: 20px;
     color: black;
     text-align: center;
     margin-right: 40px;
   }
-  .text{
-    font-size: 12px;
-    padding: 0px;
-    padding-left: 20px;
-  }
-  .texth2_mid{
-    font-size: 12px;
-    margin-top: 20px;
-    padding: 0px;
-    padding-left: 20px;
-  }
+
   ol{
     color: black;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 13px;
   }
   .ol1{
     color: black;
@@ -216,6 +207,7 @@ h1{
     padding-right: 0px;
     font-family: 'Times New Roman', Times, serif;
     list-style-type:square;
+    padding: 10px;
     font-size: 12px;
   }
 
