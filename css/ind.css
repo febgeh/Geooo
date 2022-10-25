@@ -16,7 +16,6 @@ body{
 }
 /*For vestland logo*/
 
-
   h1 {
     font-size: 3cm;
     font-family: 'Times New Roman', Times, serif;
@@ -26,9 +25,7 @@ body{
   }
 /*Amalie Skram VGS*/
 
-
 .knapp1{
-  display: flex;
   transition: background-color 0.5s ease;
   height: 170px;
   width: 20%;
@@ -47,7 +44,6 @@ body{
 }
 
 .knapp2{
-  display: flex;
   margin-top: 7%;
   transition: background-color 0.5s ease;
   height: 170px;
@@ -132,28 +128,18 @@ img{
 }
 /*For the things in the bokses*/
 
-
-
-
-
-
 .prosjekter{
   width: 16%;
   margin: 42%;
   margin-top: 20px;
   margin-bottom: 0px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
   height: 100px;
   background-color: #8d49e6;
   transition: 1s;
   overflow: hidden;
 }
-
 .prosjekter:hover{
-  height: 120px;
   background-color: #b9ff7b;
 }
 
@@ -168,13 +154,7 @@ img{
   padding-right: 60px;
   margin-left: -8px;
 }
-
-.pros_text:hover{
-  font-size: 25px;
-}
-
-
-.pill{
+.pil{
   display: flex;
   margin-left: 46%;
   width: 10%;
@@ -182,8 +162,6 @@ img{
   position: absolute;
   animation: mymove 5s infinite;
 }
-
-
 @keyframes mymove{
   from {margin-top: 0px;}
   to {margin-top: 40px;}

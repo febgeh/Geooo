@@ -144,8 +144,6 @@ ol{
 @media screen and (max-width: 49.9375rem){
   .active{
     font-size: 12px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
   
   .container{
