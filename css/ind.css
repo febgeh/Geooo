@@ -89,17 +89,16 @@ body{
   margin-top: 200px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  margin-left: 10px;
-
+  justify-content: center;
 }
 .item{
   display: flex;
   height: 250px;
   background-color: #f8f8e4;
-  border-style:outset;
-  flex-basis: 49%;
+  flex-basis: 50%;
   border-radius: 20px;
+  margin-left: -2px;
+  border: 1px solid;
 }
 /*For the 10 bokses*/
 
